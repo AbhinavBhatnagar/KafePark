@@ -1,0 +1,339 @@
+Manifest-Version: 1.0
+Built-By: abbhatnagar
+Build-Jdk: 1.8.0_45
+Class-Path: /Users/abbhatnagar/.m2/repository/org/apache/spark/spark-c
+ ore_2.10/1.4.0/spark-core_2.10-1.4.0.jar /Users/abbhatnagar/.m2/repos
+ itory/com/twitter/chill_2.10/0.5.0/chill_2.10-0.5.0.jar /Users/abbhat
+ nagar/.m2/repository/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.ja
+ r /Users/abbhatnagar/.m2/repository/com/esotericsoftware/reflectasm/r
+ eflectasm/1.07/reflectasm-1.07-shaded.jar /Users/abbhatnagar/.m2/repo
+ sitory/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar /Users/a
+ bbhatnagar/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.j
+ ar /Users/abbhatnagar/.m2/repository/com/twitter/chill-java/0.5.0/chi
+ ll-java-0.5.0.jar /Users/abbhatnagar/.m2/repository/org/apache/hadoop
+ /hadoop-client/2.2.0/hadoop-client-2.2.0.jar /Users/abbhatnagar/.m2/r
+ epository/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.j
+ ar /Users/abbhatnagar/.m2/repository/org/apache/commons/commons-math/
+ 2.1/commons-math-2.1.jar /Users/abbhatnagar/.m2/repository/xmlenc/xml
+ enc/0.52/xmlenc-0.52.jar /Users/abbhatnagar/.m2/repository/commons-co
+ nfiguration/commons-configuration/1.6/commons-configuration-1.6.jar /
+ Users/abbhatnagar/.m2/repository/commons-collections/commons-collecti
+ ons/3.2.1/commons-collections-3.2.1.jar /Users/abbhatnagar/.m2/reposi
+ tory/commons-digester/commons-digester/1.8/commons-digester-1.8.jar /
+ Users/abbhatnagar/.m2/repository/commons-beanutils/commons-beanutils/
+ 1.7.0/commons-beanutils-1.7.0.jar /Users/abbhatnagar/.m2/repository/c
+ ommons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-
+ 1.8.0.jar /Users/abbhatnagar/.m2/repository/com/google/protobuf/proto
+ buf-java/2.5.0/protobuf-java-2.5.0.jar /Users/abbhatnagar/.m2/reposit
+ ory/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar /Users/
+ abbhatnagar/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop
+ -hdfs-2.2.0.jar /Users/abbhatnagar/.m2/repository/org/mortbay/jetty/j
+ etty-util/6.1.26/jetty-util-6.1.26.jar /Users/abbhatnagar/.m2/reposit
+ ory/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapred
+ uce-client-app-2.2.0.jar /Users/abbhatnagar/.m2/repository/org/apache
+ /hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-
+ common-2.2.0.jar /Users/abbhatnagar/.m2/repository/org/apache/hadoop/
+ hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.jar /Users/abbhatna
+ gar/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar /Users/a
+ bbhatnagar/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.
+ jar /Users/abbhatnagar/.m2/repository/aopalliance/aopalliance/1.0/aop
+ alliance-1.0.jar /Users/abbhatnagar/.m2/repository/com/sun/jersey/jer
+ sey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-fra
+ mework-grizzly2-1.9.jar /Users/abbhatnagar/.m2/repository/com/sun/jer
+ sey/jersey-test-framework/jersey-test-framework-core/1.9/jersey-test-
+ framework-core-1.9.jar /Users/abbhatnagar/.m2/repository/javax/servle
+ t/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar /Users/abbhatna
+ gar/.m2/repository/com/sun/jersey/jersey-client/1.9/jersey-client-1.9
+ .jar /Users/abbhatnagar/.m2/repository/com/sun/jersey/jersey-grizzly2
+ /1.9/jersey-grizzly2-1.9.jar /Users/abbhatnagar/.m2/repository/org/gl
+ assfish/grizzly/grizzly-http/2.1.2/grizzly-http-2.1.2.jar /Users/abbh
+ atnagar/.m2/repository/org/glassfish/grizzly/grizzly-framework/2.1.2/
+ grizzly-framework-2.1.2.jar /Users/abbhatnagar/.m2/repository/org/gla
+ ssfish/gmbal/gmbal-api-only/3.0.0-b023/gmbal-api-only-3.0.0-b023.jar 
+ /Users/abbhatnagar/.m2/repository/org/glassfish/external/management-a
+ pi/3.0.0-b012/management-api-3.0.0-b012.jar /Users/abbhatnagar/.m2/re
+ pository/org/glassfish/grizzly/grizzly-http-server/2.1.2/grizzly-http
+ -server-2.1.2.jar /Users/abbhatnagar/.m2/repository/org/glassfish/gri
+ zzly/grizzly-rcm/2.1.2/grizzly-rcm-2.1.2.jar /Users/abbhatnagar/.m2/r
+ epository/org/glassfish/grizzly/grizzly-http-servlet/2.1.2/grizzly-ht
+ tp-servlet-2.1.2.jar /Users/abbhatnagar/.m2/repository/org/glassfish/
+ javax.servlet/3.1/javax.servlet-3.1.jar /Users/abbhatnagar/.m2/reposi
+ tory/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar /Users/abbhat
+ nagar/.m2/repository/org/codehaus/jettison/jettison/1.1/jettison-1.1.
+ jar /Users/abbhatnagar/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.
+ 3-1/jaxb-impl-2.2.3-1.jar /Users/abbhatnagar/.m2/repository/javax/xml
+ /bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar /Users/abbhatnagar/.m2/reposi
+ tory/javax/activation/activation/1.1/activation-1.1.jar /Users/abbhat
+ nagar/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson
+ -jaxrs-1.8.3.jar /Users/abbhatnagar/.m2/repository/org/codehaus/jacks
+ on/jackson-xc/1.8.3/jackson-xc-1.8.3.jar /Users/abbhatnagar/.m2/repos
+ itory/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar /
+ Users/abbhatnagar/.m2/repository/org/apache/hadoop/hadoop-yarn-server
+ -common/2.2.0/hadoop-yarn-server-common-2.2.0.jar /Users/abbhatnagar/
+ .m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.
+ 0/hadoop-mapreduce-client-shuffle-2.2.0.jar /Users/abbhatnagar/.m2/re
+ pository/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.
+ 0.jar /Users/abbhatnagar/.m2/repository/org/apache/hadoop/hadoop-mapr
+ educe-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.jar /Users
+ /abbhatnagar/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.2.
+ 0/hadoop-yarn-common-2.2.0.jar /Users/abbhatnagar/.m2/repository/org/
+ apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduc
+ e-client-jobclient-2.2.0.jar /Users/abbhatnagar/.m2/repository/org/ap
+ ache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.jar /Us
+ ers/abbhatnagar/.m2/repository/org/apache/spark/spark-launcher_2.10/1
+ .4.0/spark-launcher_2.10-1.4.0.jar /Users/abbhatnagar/.m2/repository/
+ org/apache/spark/spark-network-common_2.10/1.4.0/spark-network-common
+ _2.10-1.4.0.jar /Users/abbhatnagar/.m2/repository/org/apache/spark/sp
+ ark-network-shuffle_2.10/1.4.0/spark-network-shuffle_2.10-1.4.0.jar /
+ Users/abbhatnagar/.m2/repository/org/apache/spark/spark-unsafe_2.10/1
+ .4.0/spark-unsafe_2.10-1.4.0.jar /Users/abbhatnagar/.m2/repository/ne
+ t/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar /Users/abbhatnagar/.m
+ 2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar /U
+ sers/abbhatnagar/.m2/repository/org/apache/curator/curator-recipes/2.
+ 4.0/curator-recipes-2.4.0.jar /Users/abbhatnagar/.m2/repository/org/a
+ pache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar /Us
+ ers/abbhatnagar/.m2/repository/org/apache/curator/curator-client/2.4.
+ 0/curator-client-2.4.0.jar /Users/abbhatnagar/.m2/repository/com/goog
+ le/guava/guava/14.0.1/guava-14.0.1.jar /Users/abbhatnagar/.m2/reposit
+ ory/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.s
+ ervlet-3.0.0.v201112011016.jar /Users/abbhatnagar/.m2/repository/org/
+ apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar /Users/abb
+ hatnagar/.m2/repository/org/apache/commons/commons-math3/3.4.1/common
+ s-math3-3.4.1.jar /Users/abbhatnagar/.m2/repository/com/google/code/f
+ indbugs/jsr305/1.3.9/jsr305-1.3.9.jar /Users/abbhatnagar/.m2/reposito
+ ry/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar /Users/abbhatnagar
+ /.m2/repository/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar
+  /Users/abbhatnagar/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.10/jc
+ l-over-slf4j-1.7.10.jar /Users/abbhatnagar/.m2/repository/log4j/log4j
+ /1.2.17/log4j-1.2.17.jar /Users/abbhatnagar/.m2/repository/org/slf4j/
+ slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar /Users/abbhatnagar/.m2/
+ repository/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar /Users/
+ abbhatnagar/.m2/repository/org/xerial/snappy/snappy-java/1.1.1.7/snap
+ py-java-1.1.1.7.jar /Users/abbhatnagar/.m2/repository/net/jpountz/lz4
+ /lz4/1.2.0/lz4-1.2.0.jar /Users/abbhatnagar/.m2/repository/org/roarin
+ gbitmap/RoaringBitmap/0.4.5/RoaringBitmap-0.4.5.jar /Users/abbhatnaga
+ r/.m2/repository/commons-net/commons-net/2.2/commons-net-2.2.jar /Use
+ rs/abbhatnagar/.m2/repository/org/spark-project/akka/akka-remote_2.10
+ /2.3.4-spark/akka-remote_2.10-2.3.4-spark.jar /Users/abbhatnagar/.m2/
+ repository/org/spark-project/akka/akka-actor_2.10/2.3.4-spark/akka-ac
+ tor_2.10-2.3.4-spark.jar /Users/abbhatnagar/.m2/repository/com/typesa
+ fe/config/1.2.1/config-1.2.1.jar /Users/abbhatnagar/.m2/repository/io
+ /netty/netty/3.8.0.Final/netty-3.8.0.Final.jar /Users/abbhatnagar/.m2
+ /repository/org/spark-project/protobuf/protobuf-java/2.5.0-spark/prot
+ obuf-java-2.5.0-spark.jar /Users/abbhatnagar/.m2/repository/org/uncom
+ mons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar /Users/a
+ bbhatnagar/.m2/repository/org/spark-project/akka/akka-slf4j_2.10/2.3.
+ 4-spark/akka-slf4j_2.10-2.3.4-spark.jar /Users/abbhatnagar/.m2/reposi
+ tory/org/json4s/json4s-jackson_2.10/3.2.10/json4s-jackson_2.10-3.2.10
+ .jar /Users/abbhatnagar/.m2/repository/org/json4s/json4s-core_2.10/3.
+ 2.10/json4s-core_2.10-3.2.10.jar /Users/abbhatnagar/.m2/repository/or
+ g/json4s/json4s-ast_2.10/3.2.10/json4s-ast_2.10-3.2.10.jar /Users/abb
+ hatnagar/.m2/repository/org/scala-lang/scalap/2.10.0/scalap-2.10.0.ja
+ r /Users/abbhatnagar/.m2/repository/com/sun/jersey/jersey-server/1.9/
+ jersey-server-1.9.jar /Users/abbhatnagar/.m2/repository/asm/asm/3.1/a
+ sm-3.1.jar /Users/abbhatnagar/.m2/repository/com/sun/jersey/jersey-co
+ re/1.9/jersey-core-1.9.jar /Users/abbhatnagar/.m2/repository/org/apac
+ he/mesos/mesos/0.21.1/mesos-0.21.1-shaded-protobuf.jar /Users/abbhatn
+ agar/.m2/repository/io/netty/netty-all/4.0.23.Final/netty-all-4.0.23.
+ Final.jar /Users/abbhatnagar/.m2/repository/com/clearspring/analytics
+ /stream/2.7.0/stream-2.7.0.jar /Users/abbhatnagar/.m2/repository/io/d
+ ropwizard/metrics/metrics-core/3.1.0/metrics-core-3.1.0.jar /Users/ab
+ bhatnagar/.m2/repository/io/dropwizard/metrics/metrics-jvm/3.1.0/metr
+ ics-jvm-3.1.0.jar /Users/abbhatnagar/.m2/repository/io/dropwizard/met
+ rics/metrics-json/3.1.0/metrics-json-3.1.0.jar /Users/abbhatnagar/.m2
+ /repository/io/dropwizard/metrics/metrics-graphite/3.1.0/metrics-grap
+ hite-3.1.0.jar /Users/abbhatnagar/.m2/repository/com/fasterxml/jackso
+ n/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar /Users/abbha
+ tnagar/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/
+ 2.4.0/jackson-annotations-2.4.0.jar /Users/abbhatnagar/.m2/repository
+ /com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar
+  /Users/abbhatnagar/.m2/repository/com/fasterxml/jackson/module/jacks
+ on-module-scala_2.10/2.4.4/jackson-module-scala_2.10-2.4.4.jar /Users
+ /abbhatnagar/.m2/repository/com/thoughtworks/paranamer/paranamer/2.6/
+ paranamer-2.6.jar /Users/abbhatnagar/.m2/repository/org/apache/ivy/iv
+ y/2.4.0/ivy-2.4.0.jar /Users/abbhatnagar/.m2/repository/oro/oro/2.0.8
+ /oro-2.0.8.jar /Users/abbhatnagar/.m2/repository/org/tachyonproject/t
+ achyon-client/0.6.4/tachyon-client-0.6.4.jar /Users/abbhatnagar/.m2/r
+ epository/org/tachyonproject/tachyon/0.6.4/tachyon-0.6.4.jar /Users/a
+ bbhatnagar/.m2/repository/net/razorvine/pyrolite/4.4/pyrolite-4.4.jar
+  /Users/abbhatnagar/.m2/repository/net/sf/py4j/py4j/0.8.2.1/py4j-0.8.
+ 2.1.jar /Users/abbhatnagar/.m2/repository/org/spark-project/spark/unu
+ sed/1.0.0/unused-1.0.0.jar /Users/abbhatnagar/.m2/repository/org/apac
+ he/spark/spark-streaming-kafka_2.10/1.4.0/spark-streaming-kafka_2.10-
+ 1.4.0.jar /Users/abbhatnagar/.m2/repository/org/apache/spark/spark-st
+ reaming_2.10/1.4.0/spark-streaming_2.10-1.4.0.jar /Users/abbhatnagar/
+ .m2/repository/org/scala-tools/maven-scala-plugin/2.15.0/maven-scala-
+ plugin-2.15.0.jar /Users/abbhatnagar/.m2/repository/org/apache/maven/
+ maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar /Users/abbhatnagar/
+ .m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2
+ .1.jar /Users/abbhatnagar/.m2/repository/org/apache/maven/maven-setti
+ ngs/2.2.1/maven-settings-2.2.1.jar /Users/abbhatnagar/.m2/repository/
+ org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar /Users/a
+ bbhatnagar/.m2/repository/org/apache/maven/maven-artifact-manager/2.2
+ .1/maven-artifact-manager-2.2.1.jar /Users/abbhatnagar/.m2/repository
+ /backport-util-concurrent/backport-util-concurrent/3.1/backport-util-
+ concurrent-3.1.jar /Users/abbhatnagar/.m2/repository/org/apache/maven
+ /maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar /Users/a
+ bbhatnagar/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.
+ 11/plexus-interpolation-1.11.jar /Users/abbhatnagar/.m2/repository/or
+ g/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexu
+ s-container-default-1.0-alpha-9-stable-1.jar /Users/abbhatnagar/.m2/r
+ epository/junit/junit/3.8.1/junit-3.8.1.jar /Users/abbhatnagar/.m2/re
+ pository/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-r
+ eporting-api-2.2.1.jar /Users/abbhatnagar/.m2/repository/org/apache/m
+ aven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.jar /Users/abb
+ hatnagar/.m2/repository/org/apache/maven/maven-core/2.2.1/maven-core-
+ 2.2.1.jar /Users/abbhatnagar/.m2/repository/org/apache/maven/wagon/wa
+ gon-file/1.0-beta-6/wagon-file-1.0-beta-6.jar /Users/abbhatnagar/.m2/
+ repository/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/m
+ aven-plugin-parameter-documenter-2.2.1.jar /Users/abbhatnagar/.m2/rep
+ ository/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-6/wago
+ n-http-lightweight-1.0-beta-6.jar /Users/abbhatnagar/.m2/repository/o
+ rg/apache/maven/wagon/wagon-http-shared/1.0-beta-6/wagon-http-shared-
+ 1.0-beta-6.jar /Users/abbhatnagar/.m2/repository/nekohtml/xercesMinim
+ al/1.9.6.2/xercesMinimal-1.9.6.2.jar /Users/abbhatnagar/.m2/repositor
+ y/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.jar /Users/abbhatnagar/.
+ m2/repository/org/apache/maven/wagon/wagon-http/1.0-beta-6/wagon-http
+ -1.0-beta-6.jar /Users/abbhatnagar/.m2/repository/org/apache/maven/wa
+ gon/wagon-webdav-jackrabbit/1.0-beta-6/wagon-webdav-jackrabbit-1.0-be
+ ta-6.jar /Users/abbhatnagar/.m2/repository/org/apache/jackrabbit/jack
+ rabbit-webdav/1.5.0/jackrabbit-webdav-1.5.0.jar /Users/abbhatnagar/.m
+ 2/repository/org/apache/jackrabbit/jackrabbit-jcr-commons/1.5.0/jackr
+ abbit-jcr-commons-1.5.0.jar /Users/abbhatnagar/.m2/repository/org/slf
+ 4j/slf4j-nop/1.5.3/slf4j-nop-1.5.3.jar /Users/abbhatnagar/.m2/reposit
+ ory/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.jar /Users/abbhatna
+ gar/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta
+ -6/wagon-provider-api-1.0-beta-6.jar /Users/abbhatnagar/.m2/repositor
+ y/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-m
+ etadata-2.2.1.jar /Users/abbhatnagar/.m2/repository/org/apache/maven/
+ maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar /User
+ s/abbhatnagar/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-
+ 1.2.jar /Users/abbhatnagar/.m2/repository/org/apache/maven/wagon/wago
+ n-ssh-external/1.0-beta-6/wagon-ssh-external-1.0-beta-6.jar /Users/ab
+ bhatnagar/.m2/repository/org/apache/maven/wagon/wagon-ssh-common/1.0-
+ beta-6/wagon-ssh-common-1.0-beta-6.jar /Users/abbhatnagar/.m2/reposit
+ ory/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descr
+ iptor-2.2.1.jar /Users/abbhatnagar/.m2/repository/org/codehaus/plexus
+ /plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-al
+ pha-4.jar /Users/abbhatnagar/.m2/repository/org/apache/maven/maven-mo
+ nitor/2.2.1/maven-monitor-2.2.1.jar /Users/abbhatnagar/.m2/repository
+ /org/apache/maven/wagon/wagon-ssh/1.0-beta-6/wagon-ssh-1.0-beta-6.jar
+  /Users/abbhatnagar/.m2/repository/com/jcraft/jsch/0.1.38/jsch-0.1.38
+ .jar /Users/abbhatnagar/.m2/repository/classworlds/classworlds/1.1/cl
+ assworlds-1.1.jar /Users/abbhatnagar/.m2/repository/org/sonatype/plex
+ us/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar /Users/abb
+ hatnagar/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-
+ cipher-1.4.jar /Users/abbhatnagar/.m2/repository/org/apache/maven/sha
+ red/maven-dependency-tree/1.2/maven-dependency-tree-1.2.jar /Users/ab
+ bhatnagar/.m2/repository/org/apache/commons/commons-exec/1.0.1/common
+ s-exec-1.0.1.jar /Users/abbhatnagar/.m2/repository/org/yaml/snakeyaml
+ /1.4/snakeyaml-1.4.jar /Users/abbhatnagar/.m2/repository/org/apache/m
+ aven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar /Users/abbhatnagar
+ /.m2/repository/org/codehaus/plexus/plexus-utils/2.0.1/plexus-utils-2
+ .0.1.jar /Users/abbhatnagar/.m2/repository/org/apache/maven/doxia/dox
+ ia-sink-api/1.1.2/doxia-sink-api-1.1.2.jar /Users/abbhatnagar/.m2/rep
+ ository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar /Use
+ rs/abbhatnagar/.m2/repository/org/codehaus/jackson/jackson-core-asl/1
+ .6.1/jackson-core-asl-1.6.1.jar /Users/abbhatnagar/.m2/repository/org
+ /codehaus/jackson/jackson-mapper-asl/1.6.1/jackson-mapper-asl-1.6.1.j
+ ar /Users/abbhatnagar/.m2/repository/org/apache/maven/shared/maven-in
+ voker/2.0.11/maven-invoker-2.0.11.jar /Users/abbhatnagar/.m2/reposito
+ ry/org/scala-lang/scala-library/2.10.0/scala-library-2.10.0.jar /User
+ s/abbhatnagar/.m2/repository/org/scala-lang/scala-compiler/2.10.0/sca
+ la-compiler-2.10.0.jar /Users/abbhatnagar/.m2/repository/org/scala-la
+ ng/scala-reflect/2.10.0/scala-reflect-2.10.0.jar /Users/abbhatnagar/.
+ m2/repository/org/apache/spark/spark-sql_2.10/1.4.0/spark-sql_2.10-1.
+ 4.0.jar /Users/abbhatnagar/.m2/repository/org/apache/spark/spark-cata
+ lyst_2.10/1.4.0/spark-catalyst_2.10-1.4.0.jar /Users/abbhatnagar/.m2/
+ repository/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.
+ 0.1.jar /Users/abbhatnagar/.m2/repository/com/twitter/parquet-column/
+ 1.6.0rc3/parquet-column-1.6.0rc3.jar /Users/abbhatnagar/.m2/repositor
+ y/com/twitter/parquet-common/1.6.0rc3/parquet-common-1.6.0rc3.jar /Us
+ ers/abbhatnagar/.m2/repository/com/twitter/parquet-encoding/1.6.0rc3/
+ parquet-encoding-1.6.0rc3.jar /Users/abbhatnagar/.m2/repository/com/t
+ witter/parquet-generator/1.6.0rc3/parquet-generator-1.6.0rc3.jar /Use
+ rs/abbhatnagar/.m2/repository/com/twitter/parquet-hadoop/1.6.0rc3/par
+ quet-hadoop-1.6.0rc3.jar /Users/abbhatnagar/.m2/repository/com/twitte
+ r/parquet-format/2.2.0-rc1/parquet-format-2.2.0-rc1.jar /Users/abbhat
+ nagar/.m2/repository/com/twitter/parquet-jackson/1.6.0rc3/parquet-jac
+ kson-1.6.0rc3.jar /Users/abbhatnagar/.m2/repository/org/jodd/jodd-cor
+ e/3.6.3/jodd-core-3.6.3.jar /Users/abbhatnagar/.m2/repository/org/apa
+ che/kafka/kafka_2.10/0.8.2.1/kafka_2.10-0.8.2.1.jar /Users/abbhatnaga
+ r/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2
+ .2.0.jar /Users/abbhatnagar/.m2/repository/org/apache/kafka/kafka-cli
+ ents/0.8.2.1/kafka-clients-0.8.2.1.jar /Users/abbhatnagar/.m2/reposit
+ ory/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar /Users/a
+ bbhatnagar/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar /Users/
+ abbhatnagar/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-si
+ mple-3.2.jar /Users/abbhatnagar/.m2/repository/com/101tec/zkclient/0.
+ 3/zkclient-0.3.jar /Users/abbhatnagar/.m2/repository/com/databricks/s
+ park-avro_2.10/1.0.0/spark-avro_2.10-1.0.0.jar /Users/abbhatnagar/.m2
+ /repository/org/apache/avro/avro/1.7.6/avro-1.7.6.jar /Users/abbhatna
+ gar/.m2/repository/org/apache/commons/commons-compress/1.4.1/commons-
+ compress-1.4.1.jar /Users/abbhatnagar/.m2/repository/org/tukaani/xz/1
+ .0/xz-1.0.jar /Users/abbhatnagar/.m2/repository/org/apache/spark/spar
+ k-hive_2.10/1.2.1/spark-hive_2.10-1.2.1.jar /Users/abbhatnagar/.m2/re
+ pository/org/spark-project/hive/hive-metastore/0.13.1a/hive-metastore
+ -0.13.1a.jar /Users/abbhatnagar/.m2/repository/org/spark-project/hive
+ /hive-shims/0.13.1a/hive-shims-0.13.1a.jar /Users/abbhatnagar/.m2/rep
+ ository/org/spark-project/hive/shims/hive-shims-common/0.13.1a/hive-s
+ hims-common-0.13.1a.jar /Users/abbhatnagar/.m2/repository/org/spark-p
+ roject/hive/shims/hive-shims-0.20/0.13.1a/hive-shims-0.20-0.13.1a.jar
+  /Users/abbhatnagar/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jet
+ ty-6.1.26.jar /Users/abbhatnagar/.m2/repository/org/mortbay/jetty/ser
+ vlet-api/2.5-20081211/servlet-api-2.5-20081211.jar /Users/abbhatnagar
+ /.m2/repository/org/spark-project/hive/shims/hive-shims-common-secure
+ /0.13.1a/hive-shims-common-secure-0.13.1a.jar /Users/abbhatnagar/.m2/
+ repository/org/spark-project/hive/shims/hive-shims-0.20S/0.13.1a/hive
+ -shims-0.20S-0.13.1a.jar /Users/abbhatnagar/.m2/repository/org/spark-
+ project/hive/shims/hive-shims-0.23/0.13.1a/hive-shims-0.23-0.13.1a.ja
+ r /Users/abbhatnagar/.m2/repository/com/jolbox/bonecp/0.8.0.RELEASE/b
+ onecp-0.8.0.RELEASE.jar /Users/abbhatnagar/.m2/repository/commons-lan
+ g/commons-lang/2.4/commons-lang-2.4.jar /Users/abbhatnagar/.m2/reposi
+ tory/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar 
+ /Users/abbhatnagar/.m2/repository/org/apache/derby/derby/10.10.1.1/de
+ rby-10.10.1.1.jar /Users/abbhatnagar/.m2/repository/org/datanucleus/d
+ atanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6.jar /Users/abbhatn
+ agar/.m2/repository/org/datanucleus/datanucleus-core/3.2.10/datanucle
+ us-core-3.2.10.jar /Users/abbhatnagar/.m2/repository/org/datanucleus/
+ datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9.jar /Users/abbhatnaga
+ r/.m2/repository/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar /Users/abb
+ hatnagar/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar /Users/
+ abbhatnagar/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-
+ 3.4.jar /Users/abbhatnagar/.m2/repository/org/antlr/stringtemplate/3.
+ 2.1/stringtemplate-3.2.1.jar /Users/abbhatnagar/.m2/repository/antlr/
+ antlr/2.7.7/antlr-2.7.7.jar /Users/abbhatnagar/.m2/repository/org/apa
+ che/thrift/libfb303/0.9.0/libfb303-0.9.0.jar /Users/abbhatnagar/.m2/r
+ epository/org/apache/thrift/libthrift/0.9.0/libthrift-0.9.0.jar /User
+ s/abbhatnagar/.m2/repository/org/apache/httpcomponents/httpclient/4.1
+ .3/httpclient-4.1.3.jar /Users/abbhatnagar/.m2/repository/org/apache/
+ httpcomponents/httpcore/4.1.3/httpcore-4.1.3.jar /Users/abbhatnagar/.
+ m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpc
+ lient-3.1.jar /Users/abbhatnagar/.m2/repository/org/spark-project/hiv
+ e/hive-exec/0.13.1a/hive-exec-0.13.1a.jar /Users/abbhatnagar/.m2/repo
+ sitory/org/spark-project/hive/hive-ant/0.13.1a/hive-ant-0.13.1a.jar /
+ Users/abbhatnagar/.m2/repository/org/apache/velocity/velocity/1.5/vel
+ ocity-1.5.jar /Users/abbhatnagar/.m2/repository/org/spark-project/hiv
+ e/hive-common/0.13.1a/hive-common-0.13.1a.jar /Users/abbhatnagar/.m2/
+ repository/com/twitter/parquet-hadoop-bundle/1.3.2/parquet-hadoop-bun
+ dle-1.3.2.jar /Users/abbhatnagar/.m2/repository/commons-io/commons-io
+ /2.4/commons-io-2.4.jar /Users/abbhatnagar/.m2/repository/javolution/
+ javolution/5.5.1/javolution-5.5.1.jar /Users/abbhatnagar/.m2/reposito
+ ry/org/antlr/ST4/4.0.4/ST4-4.0.4.jar /Users/abbhatnagar/.m2/repositor
+ y/org/apache/avro/avro-mapred/1.7.5/avro-mapred-1.7.5.jar /Users/abbh
+ atnagar/.m2/repository/org/apache/ant/ant/1.9.1/ant-1.9.1.jar /Users/
+ abbhatnagar/.m2/repository/org/apache/ant/ant-launcher/1.9.1/ant-laun
+ cher-1.9.1.jar /Users/abbhatnagar/.m2/repository/org/codehaus/groovy/
+ groovy-all/2.1.6/groovy-all-2.1.6.jar /Users/abbhatnagar/.m2/reposito
+ ry/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.jar /Users/a
+ bbhatnagar/.m2/repository/org/iq80/snappy/snappy/0.2/snappy-0.2.jar /
+ Users/abbhatnagar/.m2/repository/org/json/json/20090211/json-20090211
+ .jar /Users/abbhatnagar/.m2/repository/stax/stax-api/1.0.1/stax-api-1
+ .0.1.jar /Users/abbhatnagar/.m2/repository/org/spark-project/hive/hiv
+ e-serde/0.13.1a/hive-serde-0.13.1a.jar /Users/abbhatnagar/.m2/reposit
+ ory/org/apache/avro/avro-mapred/1.7.6/avro-mapred-1.7.6-hadoop2.jar /
+ Users/abbhatnagar/.m2/repository/org/apache/avro/avro-ipc/1.7.6/avro-
+ ipc-1.7.6.jar /Users/abbhatnagar/.m2/repository/org/apache/avro/avro-
+ ipc/1.7.6/avro-ipc-1.7.6-tests.jar
+Created-By: Maven Integration for Eclipse
+
