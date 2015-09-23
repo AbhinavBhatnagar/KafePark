@@ -17,7 +17,7 @@ import java.util.Calendar
 object Kafka2Spark {
   def main(args: Array[String]) {
     if (args.length < 4) {
-      System.err.println("Usage:bin/spark-submit --class com.paypal.kafepark.Kafka2Spark --master local[2] jar LM-SJN-11000306:2181 group_id3 syncpublish 1")
+      System.err.println("Usage:bin/spark-submit --class com.paypal.kafepark.Kafka2Spark --master local[2]  your_machine:2181 Group_name table_name Threads")
       System.exit(1)
     }
 
