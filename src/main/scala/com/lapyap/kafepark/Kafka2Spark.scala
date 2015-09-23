@@ -1,4 +1,4 @@
-package com.paypal.kafepark
+package com.lapyap.kafepark
 
 /**
  * @author abbhatnagar
@@ -17,7 +17,7 @@ import java.util.Calendar
 object Kafka2Spark {
   def main(args: Array[String]) {
     if (args.length < 4) {
-      System.err.println("Usage:bin/spark-submit --class com.paypal.kafepark.Kafka2Spark --master local[2]  your_machine:2181 Group_name table_name Threads")
+      System.err.println("Usage:bin/spark-submit --class com.lapyap.kafepark.Kafka2Spark --master local[2]  your_machine:2181 Group_name table_name Threads")
       System.exit(1)
     }
 

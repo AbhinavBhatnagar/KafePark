@@ -1,4 +1,4 @@
-package com.paypal.kafepark
+package com.lapyap.kafepark
 
 import java.util.HashMap
 import org.apache.kafka.clients.consumer._
